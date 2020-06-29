@@ -179,7 +179,8 @@ def _control_preprocess(ctrl_changes):
 
 
 def _note_preprocess(susteins, notes):
-    note_stream = []
+    #note_stream = []
+    note_stream = notes
 
     for sustain in susteins:
         for note_idx, note in enumerate(notes):
